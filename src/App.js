@@ -7,7 +7,6 @@ export const App = () => {
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [fetching, setFetching] = useState(true);
-  const [totalCount, setTotalCount] = useState(0);
 
   useEffect(() => {
     if(fetching) {
@@ -15,7 +14,6 @@ export const App = () => {
       .then(response => {
         setPosts([ ...posts, ...response.data])
         setCurrentPage(prevState => prevState + 1)
-        setTotalCount(response.headers["x-total-count"])
       })
       .finally ( () => setFetching(false));
     }
@@ -29,19 +27,21 @@ export const App = () => {
   }, [])
 
   const scrollHandler = (e) => {
-    if(e.target.documentElement.scrollHeight - (e.target.documentElement.scrollTop + window.innerHeight) < 100 
-    && posts.length < totalCount) {
+    if(e.target.documentElement.scrollHeight - (e.target.documentElement.scrollTop + window.innerHeight) < 100) {
       setFetching(true);
     }
   }
 
   return (
-    <div>
+    <>
+     <div className="header">Dynamic pagination during scrolling</div>
+     <div className="contentContainer">
       {posts.map(post => 
-        <div key={post.id}>
-        <div>{post.title}</div>
-        <div>{post.body}</div>
+        <div key={post.id} className="postContainer">
+        <div className="title">{post.title}</div>
+        <div className="body">{post.body}</div>
         </div>)}
-    </div>
+     </div>
+    </>
   );
 }
