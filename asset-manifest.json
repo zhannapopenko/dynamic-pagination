@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dynamic-pagination/static/css/main.f7fe2e4f.css",
-    "main.js": "/dynamic-pagination/static/js/main.426d0e74.js",
-    "static/js/787.403e01d8.chunk.js": "/dynamic-pagination/static/js/787.403e01d8.chunk.js",
-    "index.html": "/dynamic-pagination/index.html",
-    "main.f7fe2e4f.css.map": "/dynamic-pagination/static/css/main.f7fe2e4f.css.map",
-    "main.426d0e74.js.map": "/dynamic-pagination/static/js/main.426d0e74.js.map",
-    "787.403e01d8.chunk.js.map": "/dynamic-pagination/static/js/787.403e01d8.chunk.js.map"
+    "main.css": "/example-of-dynamic-pagination/static/css/main.f7fe2e4f.css",
+    "main.js": "/example-of-dynamic-pagination/static/js/main.955df1bf.js",
+    "static/js/787.e3c8cff2.chunk.js": "/example-of-dynamic-pagination/static/js/787.e3c8cff2.chunk.js",
+    "index.html": "/example-of-dynamic-pagination/index.html",
+    "main.f7fe2e4f.css.map": "/example-of-dynamic-pagination/static/css/main.f7fe2e4f.css.map",
+    "main.955df1bf.js.map": "/example-of-dynamic-pagination/static/js/main.955df1bf.js.map",
+    "787.e3c8cff2.chunk.js.map": "/example-of-dynamic-pagination/static/js/787.e3c8cff2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7fe2e4f.css",
-    "static/js/main.426d0e74.js"
+    "static/js/main.955df1bf.js"
   ]
 }
