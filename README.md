@@ -8,3 +8,4 @@ In this case the following posts will be loaded automatically.
 - React JS
 - Axios
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+- Styled-components
