@@ -1,8 +1,8 @@
 {
-  "name": "example-of-dynamic-pagination",
+  "name": "webpage-with-dynamic-pagination",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://zhannapopenko.github.io/example-of-dynamic-pagination/",
+  "homepage": "http://zhannapopenko.github.io/webpage-with-dynamic-pagination/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",

@@ -20,6 +20,7 @@ export const Title = styled.div`
   text-align: center;
   font-size: larger;
   font-weight: 700;
+
   @media (max-width: 480px) {
     margin: 0 1em;
   }
@@ -30,6 +31,7 @@ export const ContentContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(19em, 1fr));
   grid-gap: 2vw;
+
   @media (max-width: 480px) {
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
     grid-gap: 4vw;
