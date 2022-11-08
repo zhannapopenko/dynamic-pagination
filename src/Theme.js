@@ -6,8 +6,8 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  background: "#242322",
-  fontColor: "#fff",
+  background: "#0d0d0d",
+  fontColor: "#d1d1d1",
 };
 
 export const GlobalStyles = createGlobalStyle`
